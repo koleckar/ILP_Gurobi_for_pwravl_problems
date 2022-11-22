@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\JSP">
+      <UniqueIdentifier>{cc71f01a-9e13-4a70-8a4c-bfbf46dd5860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TWVRP">
+      <UniqueIdentifier>{ce8be680-5850-41b8-8fb6-8beeffbb3214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\JSP">
+      <UniqueIdentifier>{dc1181f8-fc69-4085-8a74-e84ab2903da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VRPTW">
+      <UniqueIdentifier>{29a375e5-ec89-4dbc-bdbf-0ffbf08d8728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml">
+      <UniqueIdentifier>{d42e30e7-2c52-47e0-bcb6-cb732b521c39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CSP">
+      <UniqueIdentifier>{4fa476d7-08e3-4e73-b04a-7a8d7bd2a858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CSP">
+      <UniqueIdentifier>{b6d40d66-2f3c-4525-8a3a-9ff0257a200c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GR">
+      <UniqueIdentifier>{5f895bfc-af97-4cab-a086-1de3746ad6cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GR">
+      <UniqueIdentifier>{d34f5eb2-c632-4b6d-bfe1-bebe9262107c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VrpRepXmlReader.cpp">
+      <Filter>Source Files\TWVRP</Filter>
+    </ClCompile>
+    <ClCompile Include="LoaderJSPLIB.cpp">
+      <Filter>Source Files\JSP</Filter>
+    </ClCompile>
+    <ClCompile Include="JspMIP.cpp">
+      <Filter>Source Files\JSP</Filter>
+    </ClCompile>
+    <ClCompile Include="VrptwMIP.cpp">
+      <Filter>Source Files\TWVRP</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>TinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="CspMIP.cpp">
+      <Filter>Source Files\CSP</Filter>
+    </ClCompile>
+    <ClCompile Include="CspReader.cpp">
+      <Filter>Source Files\CSP</Filter>
+    </ClCompile>
+    <ClCompile Include="GrMIP.cpp">
+      <Filter>Source Files\GR</Filter>
+    </ClCompile>
+    <ClCompile Include="GrReader.cpp">
+      <Filter>Source Files\GR</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ModelMIP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="JspInstance.h">
+      <Filter>Header Files\JSP</Filter>
+    </ClInclude>
+    <ClInclude Include="JspMIP.h">
+      <Filter>Header Files\JSP</Filter>
+    </ClInclude>
+    <ClInclude Include="LoaderJSPLIB.h">
+      <Filter>Header Files\JSP</Filter>
+    </ClInclude>
+    <ClInclude Include="VrptwInstance.h">
+      <Filter>Header Files\VRPTW</Filter>
+    </ClInclude>
+    <ClInclude Include="VrpRepXmlReader.h">
+      <Filter>Header Files\VRPTW</Filter>
+    </ClInclude>
+    <ClInclude Include="VrptwMIP.h">
+      <Filter>Header Files\VRPTW</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>TinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="CspMIP.h">
+      <Filter>Header Files\CSP</Filter>
+    </ClInclude>
+    <ClInclude Include="CspReader.h">
+      <Filter>Header Files\CSP</Filter>
+    </ClInclude>
+    <ClInclude Include="CspInstance.h">
+      <Filter>Header Files\CSP</Filter>
+    </ClInclude>
+    <ClInclude Include="GrMIP.h">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="GrInstance.h">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+    <ClInclude Include="GrReader.h">
+      <Filter>Header Files\GR</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

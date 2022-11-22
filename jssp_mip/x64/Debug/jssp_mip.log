@@ -1,0 +1,69 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (jssp_mip.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  GrMIP.cpp
+C:\code\thesis\jssp_mip\jssp_mip\jssp_mip\GrMIP.cpp(19,16): warning C4101: 'instance': unreferenced local variable
+  JspMIP.cpp
+  VrptwMIP.cpp
+C:\code\thesis\jssp_mip\jssp_mip\jssp_mip\VrptwInstance.h(29,21): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\code\thesis\jssp_mip\jssp_mip\jssp_mip\VrptwInstance.h(45,30): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\code\thesis\jssp_mip\jssp_mip\jssp_mip\VrptwInstance.h(66,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\utility(190,16): warning C4244: 'initializing': conversion from '_Ty1' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=float
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(673): message : see reference to function template instantiation 'std::pair<int,int>::pair<_Ty1&,_Ty1&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Ty1=float,
+              _Other1=float &,
+              _Other2=float &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\xmemory(680): message : see reference to function template instantiation 'std::pair<int,int>::pair<_Ty1&,_Ty1&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Ty1=float,
+              _Other1=float &,
+              _Other2=float &
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(602): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty1&,_Ty1&>(_Alloc &,_Objty *const ,_Ty1 &,_Ty1 &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<int,int>>,
+              _Ty=std::pair<int,int>,
+              _Ty1=float,
+              _Objty=std::pair<int,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(607): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty1&,_Ty1&>(_Alloc &,_Objty *const ,_Ty1 &,_Ty1 &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<int,int>>,
+              _Ty=std::pair<int,int>,
+              _Ty1=float,
+              _Objty=std::pair<int,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\vector(620): message : see reference to function template instantiation 'void std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>::_Emplace_back_with_unused_capacity<_Ty1&,_Ty1&>(_Ty1 &,_Ty1 &)' being compiled
+          with
+          [
+              _Ty1=float
+          ]
+C:\code\thesis\jssp_mip\jssp_mip\jssp_mip\VrptwInstance.h(82): message : see reference to function template instantiation 'void std::vector<std::pair<int,int>,std::allocator<std::pair<int,int>>>::emplace_back<_Ty1&,_Ty2&>(_Ty1 &,_Ty2 &)' being compiled
+          with
+          [
+              _Ty1=float,
+              _Ty2=float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\include\utility(190,54): warning C4244: 'initializing': conversion from '_Ty1' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty1=float
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+  Generating Code...
+  jssp_mip.vcxproj -> C:\code\thesis\jssp_mip\jssp_mip\x64\Debug\thesis_MIPs.exe

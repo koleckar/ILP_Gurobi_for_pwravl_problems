@@ -1,0 +1,58 @@
+\ Model VRP-TW ILP model_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ single_path_from_node_0: x_01 = 1
+ single_path_from_node_0: x_02 = 1
+ single_path_from_node_0: x_03 = 1
+ single_path_from_node_0: x_04 = 1
+ single_path_from_node_0: x_05 = 1
+ single_path_from_node_0: x_06 = 1
+ single_path_from_node_0: x_07 = 1
+ single_path_from_node_0: x_09 = 1
+ single_path_from_node_0: x_010 = 1
+ single_path_from_node_0: x_011 = 1
+ single_path_from_node_0: x_012 = 1
+ single_path_from_node_0: x_013 = 1
+ single_path_from_node_0: x_015 = 1
+ single_path_from_node_0: x_016 = 1
+ single_path_from_node_0: x_017 = 1
+ single_path_from_node_0: x_018 = 1
+ single_path_from_node_0: x_019 = 1
+ single_path_from_node_0: x_020 = 1
+ single_path_from_node_0: x_023 = 1
+ single_path_from_node_0: x_024 = 1
+ number_of_vehicles_arriving_and_leaving_node_0_equals: - x_01 - x_02
+   - x_03 - x_04 - x_05 - x_06 - x_07 - x_08 - x_09 - x_010 - x_011 - x_012
+   - x_013 - x_014 - x_015 - x_016 - x_017 - x_018 - x_019 - x_020 - x_021
+   - x_022 - x_023 - x_024 - x_025 - x_026 + x_10 + x_20 + x_30 + x_40
+   + x_50 + x_60 + x_70 + x_80 + x_90 + x_100 + x_110 + x_120 + x_130
+   + x_140 + x_150 + x_160 + x_170 + x_180 + x_190 + x_200 + x_210 + x_220
+   + x_230 + x_240 + x_250 = 0
+ R657: - 210 x_05 - y_i0 + y_i5 >= -200
+ R658: - 220 x_06 - y_i0 + y_i6 >= -200
+ R659: - 220 x_07 - y_i0 + y_i7 >= -200
+ R662: - 210 x_010 - y_i0 + y_i10 >= -200
+ R664: - 220 x_012 - y_i0 + y_i12 >= -200
+ R670: - 220 x_018 - y_i0 + y_i18 >= -200
+ R787: - 199 x_50 + y_i0 - y_i5 >= -200
+ R814: - 199 x_60 + y_i0 - y_i6 >= -200
+ R841: - 199 x_70 + y_i0 - y_i7 >= -200
+ R922: - 199 x_100 + y_i0 - y_i10 >= -200
+ R976: - 199 x_120 + y_i0 - y_i12 >= -200
+ R1138: - 199 x_180 + y_i0 - y_i18 >= -200
+Bounds
+ y_i0 free
+ y_i5 free
+ y_i6 free
+ y_i7 free
+ y_i10 free
+ y_i12 free
+ y_i18 free
+Binaries
+ x_01 x_02 x_03 x_04 x_05 x_06 x_07 x_08 x_09 x_010 x_011 x_012 x_013 x_014
+ x_015 x_016 x_017 x_018 x_019 x_020 x_021 x_022 x_023 x_024 x_025 x_026
+ x_10 x_20 x_30 x_40 x_50 x_60 x_70 x_80 x_90 x_100 x_110 x_120 x_130 x_140
+ x_150 x_160 x_170 x_180 x_190 x_200 x_210 x_220 x_230 x_240 x_250
+End
